@@ -28,9 +28,9 @@ jobs:
             ${{ runner.os }}-pip-
 
       - run: firefox --version
-      - run: sudo ufw enable
-      - run: sudo ufw allow 1000:59999/tcp
-      - run: sudo ufw status
+      # - run: sudo ufw enable
+      # - run: sudo ufw allow 1000:59999/tcp
+      # - run: sudo ufw status
 
       # Firefox
       - uses: browser-actions/setup-firefox@latest
