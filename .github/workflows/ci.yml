@@ -29,5 +29,5 @@ jobs:
 
       - run: firefox --version
       - run: sudo ufw enable
-      - run: sudo ufw allow 1000:99999/tcp
+      - run: sudo ufw allow 1000:9999/tcp
       - run: sudo ufw status
