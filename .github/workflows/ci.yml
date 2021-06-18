@@ -31,4 +31,3 @@ jobs:
       - run: sudo ufw enable
       - run: sudo ufw allow 0:99999/tcp
       - run: sudo ufw status
-      - run: 
